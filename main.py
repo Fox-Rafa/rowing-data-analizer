@@ -11,7 +11,7 @@ workoutsFiles = os.listdir(ans)
 
 workouts = []
 for workoutFile in workoutsFiles:
-    workouts.append(json.loads(open("rowingcoachworkoutsexport/"+workoutFile).read()))
+    workouts.append(json.loads(open(ans+"/"+workoutFile).read()))
 #print(workouts)
 time = []
 distance = []
