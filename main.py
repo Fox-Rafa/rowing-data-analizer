@@ -3,7 +3,10 @@ import os
 import matplotlib.pyplot as plt
 import pandas as pd
 
-workoutsFiles = os.listdir("rowingcoachworkoutsexport")
+print('where are your .json files?')
+ans = input
+
+workoutsFiles = os.listdir(ans)
 #print(workoutsFile)
 
 workouts = []
